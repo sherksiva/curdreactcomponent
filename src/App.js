@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Create from './components/Create';
 import Read from './components/Read';
 import Update from './components/Updated';
-import NotFound from './components/NotFound;
+import NotFound from './components/NotFound';
 import './App.css';
 
 function App() {
