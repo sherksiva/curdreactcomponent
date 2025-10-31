@@ -42,7 +42,7 @@ export default function Read() {
           <Table.Row>
             <Table.HeaderCell>First Name</Table.HeaderCell>
             <Table.HeaderCell>Last Name</Table.HeaderCell>
-            <Table.HeaderCell>Checked</Table.HeaderCell>
+            <Table.HeaderCell>Check Box</Table.HeaderCell>
             <Table.HeaderCell>Update</Table.HeaderCell>
             <Table.HeaderCell>Delete</Table.HeaderCell>
           </Table.Row>
@@ -71,3 +71,4 @@ export default function Read() {
   )
 
 }
+
