@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Create from './components/Create';
 import Read from './components/Read';
 import Update from './components/Updated';
+import NotFound from './components/NotFound;
 import './App.css';
 
 function App() {
@@ -20,7 +21,10 @@ function App() {
                 </Routes>
               </div>
               <Routes>
-                <Route path='/update' Component={Update} />
+                <Route exact path='/update' Component={Update} />
+              </Routes>
+              <Routes>
+                <Route path="*" element={NotFound} /> 
               </Routes>
             </div>
           </div>
