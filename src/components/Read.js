@@ -53,7 +53,7 @@ export default function Read() {
               <Table.Row>
                 <Table.Cell>{data.firstName}</Table.Cell>
                 <Table.Cell>{data.lastName}</Table.Cell>
-                <Table.Cell>{data.checkbox ? 'checkbox' : 'Unchecked'}</Table.Cell>
+                <Table.Cell>{data.checkbox ? 'checked' : 'Unchecked'}</Table.Cell>
                 <Link to='/update'>
                   <Table.Cell>
                     <Button onClick={() => setData(data)}>Update</Button>
@@ -69,4 +69,5 @@ export default function Read() {
       </Table>
     </div>
   )
+
 }
