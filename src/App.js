@@ -15,16 +15,14 @@ function App() {
               <Routes>
                 <Route exact path='/' Component={Create} />
               </Routes>
-              <div style={{ marginTop: 20 }}>
-                <Routes>
-                  <Route exact path='/read' Component={Read} />
-                </Routes>
-              </div>
+              <Routes>
+                <Route exact path='/read' Component={Read} />
+              </Routes>
               <Routes>
                 <Route exact path='/update' Component={Update} />
               </Routes>
               <Routes>
-                <Route path="*" element={NotFound} /> 
+                <Route path="*" Component={NotFound} /> 
               </Routes>
             </div>
           </div>
